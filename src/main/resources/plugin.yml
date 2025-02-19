@@ -1,0 +1,20 @@
+name: DiamondOreExchanger
+version: '1.0-SNAPSHOT'
+main: com.halty.diamondOreExchanger.DiamondOreExchanger
+api-version: '1.21'
+commands:
+  exchange:
+    description: Обменивает всю алмазную руду игрока на игровую валюту
+    usage: /<command>
+  balance:
+    description: Показывает баланс игрока
+    usage: /<command>
+  transfer:
+    description: Переводит игровую валюту другому игроку
+    usage: /<command> <player> <amount>
+  balancetop:
+    description: Показывает топ 10 игроков по балансу
+    usage: /<command>
+  telegramcode:
+    description: Показывает уникальный код для подключения аккаунта телеграм
+    usage: /<command>
